@@ -34,5 +34,5 @@ jobs:
 
     - name: Send greeting
       run:
-        echo "Hello ${{ inputs.name }}"
+        printf "Hello ${{ inputs.name }}"
 
